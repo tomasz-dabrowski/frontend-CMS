@@ -72,9 +72,6 @@
                     <div class="aside-first">
                         <?php $FrontendCMS->Cms->displayBlock('aside-first-title', 'oneline'); ?>
                         <ul>
-<!--                            <li><a href="#" >Internetseiten</a></li>-->
-<!--                            <li><a href="#" >Internetseiten mit CMS</a></li>-->
-<!--                            <li><a href="#" >Shopsysteme</a></li>-->
                             <?php $FrontendCMS->Cms->displayBlock('aside-first', 'wysiwyg'); ?>
                         </ul>
                     </div>
@@ -104,7 +101,6 @@
 
             <div class="col-lg-9 col-sm-12 col-12">
                 <div class="slider">
-<!--                    <img src="app/res/images/slide2.jpg" class="img-fluid" alt="" />-->
                     <?php $FrontendCMS->Cms->displayBlock('slider', 'wysiwyg'); ?>
                 </div>
 
@@ -116,15 +112,11 @@
                             <div class="col-sm-6">
                                 <em class="fa fa-bar-chart fa-5x"></em>
                                 <?php $FrontendCMS->Cms->displayBlock('extra-box-1', 'wysiwyg'); ?>
-<!--                                <h3>Strategische Planung</h3>-->
-<!--                                <p>Eine umfassende Marketingstrategie und eine komplette Outsourcing-Aufgap>n</p>-->
                             </div>
 
                             <div class="col-sm-6">
                                 <em class="fa fa-cogs fa-5x"></em>
                                 <?php $FrontendCMS->Cms->displayBlock('extra-box-2', 'wysiwyg'); ?>
-<!--                                <h3>Dedizierte Anwendungen</h3>-->
-<!--                                <p>Wir entwickeln fortschrittliche, voll funktionsf&auml;hige Anwendungen gewidmet</p>-->
                             </div>
 
                         </div>
@@ -134,8 +126,7 @@
 
                         <div class="col-sm-12" >
                             <?php $FrontendCMS->Cms->displayBlock('content-main', 'wysiwyg'); ?>
-<!--                            <p><strong>Unsere Firma hat sich an den Bedarf von Unternehmen orientiert Ihre Promotion auf den internationalen Markt auszuweiten. Durch die unbegrenzte Erreichbarkeit etabliert sich das Internet als Schl&uuml;ssel zum Erfolg.</strong></p>-->
-                        </div>
+                       </div>
                     </div>
 
                     <div class="row">
