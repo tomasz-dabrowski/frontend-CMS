@@ -2,9 +2,7 @@
 #### Object PHP, MySQL, jQuery, Bootstrap, TinyMCE, MVC
 
 Frontend CMS based on <a href="https://github.com/tomasz-dabrowski/frontend-sample" target="_blank">
-Frontend sample project</a>
-
-<img src="doc/01.png" width="400px" />
+frontend sample</a> project
 
 In the upper left corner there's a "Login" button:
 
