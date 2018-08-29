@@ -18,16 +18,44 @@ After logging in, buttons for quick change preview and password change appear at
 
 <img src="doc/04.png">
 
-You can change the password (encryption with the md5 algorithm)
+You can change the password:
 
 <img src="doc/05.png">
 
-Also you can see sections (surrounded by an orange frame) that can be edited by the CMS system:
+Also you can see div's surrounded by an orange frame, that can be edited by the CMS:
 
 <img src="doc/06.png">
 
-There are two ways to edit:
+There are two content types of edit:
 
-1. Using the TinyMCE editor - in the upper right corner of the orange frame with the text "WYWIWYG"
+1. Using TinyMCE editor - in the upper right corner of the orange frame with the text "WYWIWYG"
 
 <img src="doc/08.png">
+
+After clicking this text area the editing window opens:
+
+<img src="doc/09.png">
+
+2. Using one line - in the upper right corner of the orange frame with the text "ONELINE"
+
+<img src="doc/11.png">
+
+After clicking this text area:
+
+<img src="doc/12.png">
+
+## How to use?
+
+The database structure is very simple
+
+<img src="doc/07.png">
+
+To create a block to edit with the name 'content-main' that you want to put anywhere on the page, just write:
+
+```php
+<?php $FrontendCMS->Cms->displayBlock('content-main', 'wysiwyg'); ?>
+```
+
+A new record will be created in the database:
+
+<img src="doc/10.png">
