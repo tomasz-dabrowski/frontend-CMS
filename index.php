@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="app/assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="app/assets/css/font-awesome.css" />
     <link rel="icon" type="image/x-icon" href="app/assets/images/favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400" / >
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400" />
     <link rel="stylesheet" type="text/css" href="app/assets/css/custom.css" />
     <?php $FrontendCMS->head(); ?>
 </head>
