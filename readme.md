@@ -25,9 +25,16 @@ The database structure is very simple
 To create a block to edit with the name 'content-main' that you want to put anywhere on the page, just write:
 
 ```php
+<?php $FrontendCMS->loginButton(); ?>
+```
+```php
+<?php $FrontendCMS->toolbar(); ?>
+```
+```php
 <?php $FrontendCMS->Cms->displayBlock('content-main', 'wysiwyg'); ?>
+```
+```php
 <?php $FrontendCMS->Cms->displayBlock('aside-first-title', 'oneline'); ?>
-
 ```
 
 A new record will be created in the database:
