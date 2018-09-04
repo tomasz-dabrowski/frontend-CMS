@@ -6,7 +6,7 @@ frontend sample</a> project
 
 ### Youtube demo
 
-<a href="https://www.youtube.com/watch?v=QjlIUjuqYJ4" title="Wath demo"><img src="doc/frontend-cms-youtube.png" width="600px" /></a>
+<a href="https://www.youtube.com/watch?v=hgytjiOcmt4" title="Wath demo"><img src="doc/frontend-cms-youtube.png" width="600px" /></a>
 
 ### Online demo
 
