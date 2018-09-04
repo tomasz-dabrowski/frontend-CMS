@@ -1,30 +1,38 @@
 # Simple frontend CMS
 #### Object PHP, MySQL, jQuery, Bootstrap, TinyMCE, MVC
 
-Frontend CMS based on <a href="https://github.com/tomasz-dabrowski/frontend-sample" target="_blank">
+Frontend CMS based on <a href="https://github.com/tomasz-dabrowski/frontend-sample">
 frontend sample</a> project
 
-<img src="doc/01.png" width="500px" />
+### Youtube demo
 
-In the upper left corner there's a "Login" button:
+[![Watch demo](doc/frontend-cms-youtube.png)](http://youtu.be/vt5fpE0bzSY)
 
-<img src="doc/02.png" width="500px" />
+<a href="http://youtu.be/vt5fpE0bzSY" title="Wath demo"><img src="doc/frontend-cms-youtube.png" width="500px" /></a>
 
-After clicking it, you can enter your username and password (validation using the jQuery library):
+### Online demo
 
-<img src="doc/03.png" width="500px" />
+- https://design.media.pl/github/frontend-cms/
+- Username: admin 
+- Password: demo
 
-After logging in, buttons for quick change preview and password change appear at the top of the page:
+### MySQL
 
-<img src="doc/04.png" width="500px" />
+The database structure is very simple
 
-You can change the password:
+<img src="doc/07.png" width="500px" />
 
-<img src="doc/05.png" width="500px" />
+### Howto use?
 
-Also you can see div's surrounded by an orange frame, that can be edited by the CMS:
+To create a block to edit with the name 'content-main' that you want to put anywhere on the page, just write:
 
-<img src="doc/06.png" width="500px" />
+```php
+<?php $FrontendCMS->Cms->displayBlock('content-main', 'wysiwyg'); ?>
+```
+
+A new record will be created in the database:
+
+<img src="doc/10.png" width="500px" />
 
 There are two content types of edit:
 
@@ -43,19 +51,3 @@ After clicking this text area the editing window opens:
 After clicking this text area:
 
 <img src="doc/12.png" width="500px" />
-
-## How to use?
-
-The database structure is very simple
-
-<img src="doc/07.png" width="500px" />
-
-To create a block to edit with the name 'content-main' that you want to put anywhere on the page, just write:
-
-```php
-<?php $FrontendCMS->Cms->displayBlock('content-main', 'wysiwyg'); ?>
-```
-
-A new record will be created in the database:
-
-<img src="doc/10.png" width="500px" />
